@@ -1,0 +1,39 @@
+{
+  "name": "@ongojs/method",
+  "version": "0.0.0",
+  "description": "method",
+  "main": "index.js",
+  "bin": {
+    "method": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/method.git"
+  },
+  "keywords": [
+    "method"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/method/issues"
+  },
+  "homepage": "https://github.com/ongojs/method#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
+    "vitest": "^0.28.4"
+  },
+  "dependencies": {
+    "@ongojs/base-model": "../base-model",
+    "@ongojs/db-callback": "../db-callback",
+    "@ongojs/db-query": "../db-query",
+    "@ongojs/db-query-validator": "../db-query-validator"
+  }
+}
